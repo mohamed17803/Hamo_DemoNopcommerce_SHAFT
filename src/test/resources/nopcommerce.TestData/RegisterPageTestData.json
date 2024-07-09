@@ -1,0 +1,13 @@
+{
+  "firstName": "Mohamed",
+  "lastName": "Sayed",
+  "email": "valid74@gmail.com",
+  "companyName": " mo company",
+  "password": "P@ssw0rd",
+  "confirmPassword": "P@ssw0rd",
+  "Day" : "16",
+  "Month": "7",
+  "Year": "2002",
+  "alertText": "Your registration completed",
+  "color": "rgba(76, 177, 124, 1)"
+}

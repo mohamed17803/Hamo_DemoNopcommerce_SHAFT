@@ -1,0 +1,10 @@
+{
+  "productName": "Apple MacBook ",
+  "expectedUrl": "https://demo.nopcommerce.com/search?q=",
+  "searchWord": "Apple MacBook",
+  "SecondsearchWord": "Science & Faith",
+  "ThirdsearchWord": "Nike Floral Roshe Customized Running Shoes",
+  "sku": "AP_MBP_13" ,
+  "Secondsku": "SCI_FAITH",
+  "Thirdsku" : "NK_FRC_RS"
+}
