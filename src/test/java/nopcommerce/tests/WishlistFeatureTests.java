@@ -36,7 +36,7 @@ public class WishlistFeatureTests {
         new WishlistFeature(driver).urlNavigate().ClickandValidateSuccess(testData.getTestData("BackgroundColor"));
     }
 
-    @Test(description = "Validate that the product added to wishList succesfully ")
+    @Test(description = "Validate that the product added to wishList successfully ")
     public void validateWishList(){
         new WishlistFeature(driver).urlNavigate().validateAddToWishList();
     }

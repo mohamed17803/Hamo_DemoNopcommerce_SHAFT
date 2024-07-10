@@ -1,0 +1,91 @@
+[INFO ] 2024-07-10 20:42:49.857 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231026[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-10 20:42:51.591 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2024-07-10 20:42:51.591 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-07-10 20:42:51.729 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2024-07-10 20:42:52.057 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-07-10 20:42:52.069 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-07-10 20:42:52.225 [main] Utils - [TestNG] Running:
+  C:\Users\Express\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2024-07-10 20:42:52.245 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-10 20:42:52.336 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-07-10 20:42:52.345 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-07-10 20:42:52.449 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                              'nopcommerce.tests.WishlistFeatureTests.BeforeClass'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-10 20:42:52.454 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/WishlistTestData.json"".
+[INFO ] 2024-07-10 20:42:52.454 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/WishlistTestData.json"".
+[INFO ] 2024-07-10 20:42:52.454 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/WishlistTestData.json"".
+[INFO ] 2024-07-10 20:42:52.459 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-07-10 20:42:52.469 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                 'nopcommerce.tests.WishlistFeatureTests.setup'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-10 20:42:52.482 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-10 20:42:52.490 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-10 20:42:52.490 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-10 20:42:52.491 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-10 20:42:54.444 [main] ReportManager - Jul 10, 2024 8:42:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-10 20:42:54.444 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-10 20:42:54.444 [main] ReportManager - Jul 10, 2024 8:42:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-10 20:42:54.444 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-10 20:42:54.451 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-10 20:42:54.581 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                     Test Method: 'nopcommerce.tests.WishlistFeatureTests.validateWishList'                                     
+                                  Test Description: 'Validate that the product added to wishList succesfully '                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-10 20:42:54.646 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-10 20:42:54.671 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-10 20:42:56.576 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-10 20:42:56.826 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-10 20:42:56.865 [main] ReportManager - Click "Add to wishlist".
+[INFO ] 2024-07-10 20:42:57.950 [main] ReportManager - Waiting for element to be present; elementLocator "By.id: bar-notification", isExpectedToBeVisible"false"...
+[INFO ] 2024-07-10 20:43:01.768 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (false). Element locator (By.id: bar-notification)" against "By.id: bar-notification".
+[INFO ] 2024-07-10 20:43:01.998 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-10 20:43:02.044 [main] ReportManager - Click "By.className: wishlist-label".
+[INFO ] 2024-07-10 20:43:03.073 [main] ReportManager - Get text "1" from "Qty.".
+[INFO ] 2024-07-10 20:43:03.090 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-10 20:43:03.093 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: validateWishList'
+[INFO ] 2024-07-10 20:43:03.093 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                          Finished Execution of Test Method: 'nopcommerce.tests.WishlistFeatureTests.validateWishList'                          
+                                  Test Description: 'Validate that the product added to wishList succesfully '                                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-10 20:43:03.105 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                'nopcommerce.tests.WishlistFeatureTests.tearDown'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-10 20:43:03.486 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-10 20:43:03.490 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-10 20:43:03.497 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-10 20:43:03.501 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-10 20:43:03.513 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-10 20:43:03.514 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-07-10 20:43:03.515 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2024-07-10 20:43:03.515 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

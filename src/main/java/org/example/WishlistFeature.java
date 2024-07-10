@@ -5,6 +5,7 @@ import io.qameta.allure.Step;
 import lombok.SneakyThrows;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 public class WishlistFeature {
     SHAFT.GUI.WebDriver driver;
@@ -23,6 +24,7 @@ public class WishlistFeature {
     private By Succesmessage = By.id("bar-notification");
     private By wishlistButton = By.className("wishlist-label");
     private By qtyValue = By.className("qty-input");
+
     @SneakyThrows
     @Step("Validate Wishlist Success Message and Background Color for HTC One M8 Android L 5.0 Lollipop")
     public WishlistFeature ClickandValidateSuccess(String BackgoroundColor) {
@@ -33,9 +35,10 @@ public class WishlistFeature {
         return this;
     }
 
+
     public WishlistFeature validateAddToWishList(){
-        driver.element().click(wishlistButton);
-        driver.element().waitToBeInvisible(wishlistButton);
+        driver.element().click(HTCwishlistbutton);
+        driver.element().waitToBeInvisible(Succesmessage);
         driver.element().click(wishlistButton);
         String quantityValue = driver.element().getText(qtyValue);
         int qty = Integer.parseInt(quantityValue);
@@ -43,3 +46,5 @@ public class WishlistFeature {
         return this;
     }
 }
+
+
