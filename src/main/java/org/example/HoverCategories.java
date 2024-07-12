@@ -22,9 +22,9 @@ public class HoverCategories {
     }
 
     // Locators
-    private  By MainCategory = By.xpath("//ul[@class=\"top-menu notmobile\"]//a[@href=\"/electronics\"]");
-    private  By SubCategory = By.xpath("//ul[@class=\"top-menu notmobile\"]//ul[@class=\"sublist first-level\"]//a[@href=\"/camera-photo\"]");
-    private  By PageTitle = By.xpath("//div[@class=\"page-title\"]/h1");
+    private final By MainCategory = By.xpath("//ul[@class=\"top-menu notmobile\"]//a[@href=\"/electronics\"]");
+    private final By SubCategory = By.xpath("//ul[@class=\"top-menu notmobile\"]//ul[@class=\"sublist first-level\"]//a[@href=\"/camera-photo\"]");
+    private final By PageTitle = By.xpath("//div[@class=\"page-title\"]/h1");
 
     // Actions
     @Step("Validation of Hover and Click Functionality on Main and Sub Categories with Page Title Assertion  ")

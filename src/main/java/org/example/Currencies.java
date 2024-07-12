@@ -23,11 +23,11 @@ public class Currencies {
  }
 
  // Locators
-  private  By CurrencyList =  By.id("customerCurrency");
-  private  By  Firstproduct   =  By.xpath("//div[@data-productid=\"1\"]//span[@class=\"price actual-price\"]");
-  private  By  Secondproduct   = By.xpath("//div[@data-productid=\"18\"]//span[@class=\"price actual-price\"]");
-  private  By  Thirdproduct   = By.xpath("//div[@data-productid=\"43\"]//span[@class=\"price actual-price\"]");
-  private  By  FourthProduct = By.xpath("//div[@data-productid=\"4\"]//span[@class=\"price actual-price\"]");
+  private final By CurrencyList =  By.id("customerCurrency");
+  private final By  Firstproduct   =  By.xpath("//div[@data-productid=\"1\"]//span[@class=\"price actual-price\"]");
+  private final By  Secondproduct   = By.xpath("//div[@data-productid=\"18\"]//span[@class=\"price actual-price\"]");
+  private final By  Thirdproduct   = By.xpath("//div[@data-productid=\"43\"]//span[@class=\"price actual-price\"]");
+  private final By  FourthProduct = By.xpath("//div[@data-productid=\"4\"]//span[@class=\"price actual-price\"]");
 
   //Actions
   @Step("Open currencies list and select {currency}")

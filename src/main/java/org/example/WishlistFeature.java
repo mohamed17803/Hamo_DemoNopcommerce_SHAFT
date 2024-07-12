@@ -20,10 +20,10 @@ public class WishlistFeature {
     }
 
     // Locators
-    private By HTCwishlistbutton = By.xpath("//div[@data-productid=\"18\"]//button[@title=\"Add to wishlist\"]");
-    private By Succesmessage = By.id("bar-notification");
-    private By wishlistButton = By.className("wishlist-label");
-    private By qtyValue = By.className("qty-input");
+    private final By HTCwishlistbutton = By.xpath("//div[@data-productid=\"18\"]//button[@title=\"Add to wishlist\"]");
+    private final By Succesmessage = By.id("bar-notification");
+    private final By wishlistButton = By.className("wishlist-label");
+    private final By qtyValue = By.className("qty-input");
 
     @SneakyThrows
     @Step("Validate Wishlist Success Message and Background Color for HTC One M8 Android L 5.0 Lollipop")
