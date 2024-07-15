@@ -34,8 +34,8 @@ public class LoginPage {
         return this;
     }
 
-    public LoginPage FillLoginData(String username, String password) {
-        driver.element().type(EmailTextBox, username);
+    public LoginPage FillLoginData(String email, String password) {
+        driver.element().type(EmailTextBox, email);
         driver.element().type(PasswordTextBox, password);
         return this;
     }

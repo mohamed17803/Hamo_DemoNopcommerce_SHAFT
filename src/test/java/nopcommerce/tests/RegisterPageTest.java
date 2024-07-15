@@ -16,22 +16,22 @@ import org.testng.annotations.Test;
 
 public class RegisterPageTest {
     private SHAFT.GUI.WebDriver driver;
-     private JSONFileManager testData ;
+     private JSONFileManager testDataForRegister;
 @BeforeClass
 @Description("Setting JSON File")
 public void beforeClass() {
-    testData = new JSONFileManager("src/test/resources/nopcommerce.TestData/RegisterPageTestData.json");
+    testDataForRegister = new JSONFileManager("src/test/resources/nopcommerce.TestData/RegisterPageTestData.json");
 
 }
 @Test(description = "Validate that the User registration is successfully done ")
 public void  ValidateRegistration(){
- new RegisterPage(driver).urlNavigate().ClickOnRegisterButton().ClickOnMaleOption().FillRegisterPageData(testData.getTestData("firstName"),
-         testData.getTestData("lastName"), testData.getTestData("email"),testData.getTestData("companyName"),
-         testData.getTestData("password"),testData.getTestData("confirmPassword"))
-         .DateOfBirthSelection(testData.getTestData("Day"),
-                 testData.getTestData("Month"),
-                 testData.getTestData("Year")).ClickOnButtonOfRegister().ValidateRegistration(testData.getTestData("alertText"),
-                 testData.getTestData("color"));
+ new RegisterPage(driver).urlNavigate().ClickOnRegisterButton().ClickOnMaleOption().FillRegisterPageData(testDataForRegister.getTestData("firstName"),
+         testDataForRegister.getTestData("lastName"), testDataForRegister.getTestData("email"), testDataForRegister.getTestData("companyName"),
+         testDataForRegister.getTestData("password"), testDataForRegister.getTestData("confirmPassword"))
+         .DateOfBirthSelection(testDataForRegister.getTestData("Day"),
+                 testDataForRegister.getTestData("Month"),
+                 testDataForRegister.getTestData("Year")).ClickOnButtonOfRegister().ValidateRegistration(testDataForRegister.getTestData("alertText"),
+                 testDataForRegister.getTestData("color"));
 
 }
     @BeforeMethod

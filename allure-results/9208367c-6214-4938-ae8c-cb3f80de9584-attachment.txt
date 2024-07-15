@@ -1,0 +1,109 @@
+[INFO ] 2024-07-15 17:46:53.335 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231026[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-15 17:46:54.984 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2024-07-15 17:46:54.984 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-07-15 17:46:55.062 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2024-07-15 17:46:55.345 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-07-15 17:46:55.361 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-07-15 17:46:55.486 [main] Utils - [TestNG] Running:
+  C:\Users\Express\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2024-07-15 17:46:55.503 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-15 17:46:55.600 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-07-15 17:46:55.611 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-07-15 17:46:55.700 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                   'nopcommerce.tests.LoginTests.BeforeClass'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-15 17:46:55.716 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-15 17:46:55.716 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-15 17:46:55.716 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-15 17:46:55.716 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-07-15 17:46:55.716 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-15 17:46:55.716 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-15 17:46:55.716 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-15 17:46:55.716 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-07-15 17:46:55.732 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                      'nopcommerce.tests.LoginTests.setup'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-15 17:46:55.750 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-15 17:46:55.759 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-15 17:46:55.760 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-15 17:46:55.760 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-15 17:46:57.624 [main] ReportManager - Jul 15, 2024 5:46:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-15 17:46:57.624 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-15 17:46:57.624 [main] ReportManager - Jul 15, 2024 5:46:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-15 17:46:57.624 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-15 17:46:57.629 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-15 17:46:57.710 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                          Test Method: 'nopcommerce.tests.LoginTests.ValidateNotLogin'                                          
+                                Test Description: 'Validate user could not login with invalid email and password'                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-15 17:46:57.747 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-15 17:46:57.766 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-15 17:47:04.265 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-15 17:47:04.507 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-15 17:47:04.537 [main] ReportManager - Click "Log in".
+[INFO ] 2024-07-15 17:47:04.538 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-15 17:47:04.538 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-15 17:47:06.158 [main] ReportManager - Type "wrong@gmail.com" into "Email:".
+[INFO ] 2024-07-15 17:47:06.264 [main] ReportManager - Type "WrongPassword" into "Password:".
+[INFO ] 2024-07-15 17:47:06.435 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-15 17:47:06.462 [main] ReportManager - Click "LOG IN".
+[INFO ] 2024-07-15 17:47:06.462 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-15 17:47:06.462 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-15 17:47:06.482 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-15 17:47:06.483 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-15 17:47:07.436 [main] ReportManager - Get text "Login was unsuccessful. Please correct the errors and try again.
+No customer account found" from "By.xpath: //div[contains(text(),'Login was unsuccessful')]".
+[INFO ] 2024-07-15 17:47:07.436 [main] ReportManager - Expected "Login was unsuccessful. Please correct the errors and try again.
+No customer account found", and actual "Login was unsuccessful. Please correct the errors and try again.
+No customer account found"
+[INFO ] 2024-07-15 17:47:08.544 [main] ReportManager - Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'Login was unsuccessful. Please correct the errors and try again.
+No customer account found' for the 'text' attribute, element locator 'By.xpath: //div[contains(text(),'Login was unsuccessful')]'" and Actual "Login was unsuccessful. Please correct the errors and try again.
+No customer account found". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-07-15 17:47:08.576 [main] ReportManager - Successfully created attachment 'Screenshot - 1721058427862_ValidateNotLogin_ValidateElementAttribute_passed'
+[INFO ] 2024-07-15 17:47:08.576 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-15 17:47:08.592 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: ValidateNotLogin'
+[INFO ] 2024-07-15 17:47:08.592 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'nopcommerce.tests.LoginTests.ValidateNotLogin'                               
+                                Test Description: 'Validate user could not login with invalid email and password'                                
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-15 17:47:08.611 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                     'nopcommerce.tests.LoginTests.tearDown'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-15 17:47:08.811 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-15 17:47:08.819 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-15 17:47:08.819 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-15 17:47:08.827 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-15 17:47:08.827 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-15 17:47:08.842 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-07-15 17:47:08.842 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2024-07-15 17:47:08.842 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

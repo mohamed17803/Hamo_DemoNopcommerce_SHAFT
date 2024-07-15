@@ -14,7 +14,8 @@ import org.testng.annotations.*;
 
 public class LoginTests {
     private SHAFT.GUI.WebDriver driver;
-    private JSONFileManager testData;
+    private JSONFileManager testDataForRegister;
+    private JSONFileManager testDataForLogin;
 
     @BeforeMethod
     @Description("Navigate To URL")
@@ -25,20 +26,21 @@ public class LoginTests {
     @BeforeClass
     @Description("Setting JSON File")
     public void BeforeClass() {
-        testData = new JSONFileManager("src/test/resources/nopcommerce.TestData/LoginPageTestData.json");
+        testDataForLogin = new JSONFileManager("src/test/resources/nopcommerce.TestData/LoginPageTestData.json");
+        testDataForRegister = new JSONFileManager("src/test/resources/nopcommerce.TestData/RegisterPageTestData.json");
     }
 
     @Test(description = "Validating that user could login with valid email and password")
     public void ValidateLogin() {
 
-        new LoginPage(driver).urlNavigate().ClickOnLoginTabButton().FillLoginData(testData.getTestData("UserName")
-                ,testData.getTestData("Password")).ClickOnButtonOfLogin().Loginvalidation(testData.getTestData("expectedUrl"));    }
+        new LoginPage(driver).urlNavigate().ClickOnLoginTabButton().FillLoginData(testDataForRegister.getTestData("email")
+                , testDataForRegister.getTestData("password")).ClickOnButtonOfLogin().Loginvalidation(testDataForLogin.getTestData("expectedUrl"));    }
 
     @Test(description = "Validate user could not login with invalid email and password")
      public void ValidateNotLogin() {
-        new LoginPage(driver).urlNavigate().ClickOnLoginTabButton().FillLoginData(testData.getTestData("WrongUsername"), "WrongPassword")
-                .ClickOnButtonOfLogin().Validatewronglogin(testData.getTestData("expectedErrorMessage")
-                        ,testData.getTestData("colorOfErrorMessage"));
+        new LoginPage(driver).urlNavigate().ClickOnLoginTabButton().FillLoginData(testDataForLogin.getTestData("WrongUsername"), "WrongPassword")
+                .ClickOnButtonOfLogin().Validatewronglogin(testDataForLogin.getTestData("expectedErrorMessage")
+                        , testDataForLogin.getTestData("colorOfErrorMessage"));
 
     }
 
