@@ -1,4 +1,5 @@
-Hi ,
-My name is Mohamed Sayed, i would be pleased if you can give me a feedback via gmail or an suggestions and advices. 
-Feel free to ask me via gmail if there something you want to learn from me 
-!!>> Make sure you edit the login test data in it's json file and register's too before you run the tests combined <<!!
+# Hi, my name is Mohamed Sayed
+## I am a fresh graduate and would be pleased to receive any feedback, suggestions, or advice via email at mohameddsayedd17@gmail.com. Feel free to reach out if there's something you'd like to learn from me!
+
+### Note:
+## Please make sure to edit the login test data in the `LoginPageTestData.json` file and the registration data in its respective JSON file before running the combined tests.
