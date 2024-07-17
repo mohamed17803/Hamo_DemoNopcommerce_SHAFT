@@ -22,7 +22,7 @@ public class HoverCategoriesTest {
     }
 
     @Test(description = "Validation of Hover and Click Functionality on Main and Sub Categories with Page Title Assertion  ")
-    public void checkTheWork() throws InterruptedException {
+    public void HoverFeatureValidation() throws InterruptedException {
         new HoverCategories(driver).urlNavigate().HoverFeatureValidation();
 
     }

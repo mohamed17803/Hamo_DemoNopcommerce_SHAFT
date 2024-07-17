@@ -32,7 +32,7 @@ public class SearchFeatureTests {
     }
 
     @Test(description = "Validate when the user searches by Product Name or sku the correct result will be shown")
-    public void searchByProductName() {
+    public void searchByLaptopNameandsku() {
         new SearchFeature(driver).urlNavigate()
                 .searchWithProductName(testData.getTestData("productName"))
                 .clickOnSearchButton()

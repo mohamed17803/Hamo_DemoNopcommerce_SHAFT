@@ -31,7 +31,7 @@ public class FollowUsTests {
     }
 
     @Test(description = "Validate that the user is navigated to the Facebook page of the website correctly")
-    public void Facebookcheck() {
+    public void FacebookValidation() {
 
         new FollowUs(driver).urlNavigate()
                 .clickAndValidateFacebookUrl(testData.getTestData("expectedFacebookUrl"));
@@ -43,7 +43,7 @@ public class FollowUsTests {
     }
 
     @Test(description = "Validate that the user is navigated to the RSSlink page of the website correctly")
-    public  void RsslinkValiadtion(){
+    public  void RsslinkValidation(){
 
         new FollowUs(driver).urlNavigate().clickandValidateRSSlink(testData.getTestData("expectedRssUrl"));
     }

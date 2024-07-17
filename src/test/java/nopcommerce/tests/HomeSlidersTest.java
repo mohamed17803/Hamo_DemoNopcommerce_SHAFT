@@ -32,5 +32,7 @@ public class HomeSlidersTest  {
     @Description("Verify that the Galaxy slider URL matches the expected URL")
     public void validateGalaxySlider() {
         new HomeSliders(driver).uRlnavigate().validateGalaxySLider(testData.getTestData("expectedGalaxyUrl"));
+
     }
+
 }

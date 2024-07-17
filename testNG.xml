@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <parameter name="browser" value="chrome" />
+    <test name="Regression Test in chrome">
+        <classes>
+            <class name="nopcommerce.tests.RegisterPageTest">
+                <methods>
+                    <include name="ValidateRegistration" />
+                </methods>
+            </class>
+            <class name="nopcommerce.tests.LoginTests">
+                <methods>
+                    <include name="ValidateLogin" />
+                    <include name="ValidateNotLogin" />
+                </methods>
+            </class>
+            <class name="nopcommerce.tests.CurrenciesTest">
+                <methods>
+                    <include name="Choosecurrencyvalidation" />
+                </methods>
+            </class>
+            <class name="nopcommerce.tests.SearchFeatureTests">
+                <methods>
+                    <include name="searchByLaptopNameandsku" />
+                    <include name="searchBookByProductName" />
+                    <include name="searchNikeByProductName" />
+
+                </methods>
+            </class>
+            <class name="nopcommerce.tests.HoverCategoriesTest">
+                <methods>
+                    <include name="HoverFeatureValidation" />
+                </methods>
+            </class>
+            <class name="nopcommerce.tests.FollowUsTests">
+                <methods>
+                    <include name="FacebookValidation" />
+                    <include name="TwitterValidation" />
+                    <include name="RsslinkValidation" />
+                    <include name="YoutubeValidation" />
+                </methods>
+            </class>
+            <class name="nopcommerce.tests.WishlistFeatureTests">
+                <methods>
+                    <include name="wishlistValidations" />
+                    <include name="validateWishList`" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
