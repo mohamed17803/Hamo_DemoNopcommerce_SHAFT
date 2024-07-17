@@ -1,0 +1,56 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 14' test cases in the current suite                                        
+                                     Test Method: 'nopcommerce.tests.RegisterPageTest.ValidateRegistration'                                     
+                                  Test Description: 'Validate that the User registration is successfully done '                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @17-07-2024 21:39:08.0171 PM
+[ReportManager] Initial URL: "about:blank" @17-07-2024 21:39:08.0191 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @17-07-2024 21:39:10.0150 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:39:10.0406 PM
+[ReportManager] Click "Register". @17-07-2024 21:39:10.0471 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:39:11.0583 PM
+[ReportManager] Click "Male". @17-07-2024 21:39:11.0616 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:11.0618 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:11.0618 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:12.0589 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:12.0590 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:12.0626 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:12.0627 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:12.0655 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:12.0656 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:12.0683 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:12.0683 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:12.0709 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:12.0710 PM
+[ReportManager] Type "Mohamed" into "First name:". @17-07-2024 21:39:12.0952 PM
+[ReportManager] Type "Sayed" into "Last name:". @17-07-2024 21:39:13.0202 PM
+[ReportManager] Type "valid9@gmail.com" into "Email:". @17-07-2024 21:39:13.0358 PM
+[ReportManager] Type "mo company" into "Company name:". @17-07-2024 21:39:13.0636 PM
+[ReportManager] Type "P@ssw0rd" into "Password:". @17-07-2024 21:39:13.0759 PM
+[ReportManager] Type "P@ssw0rd" into "Confirm password:". @17-07-2024 21:39:14.0017 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:14.0020 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:14.0021 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:14.0078 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:14.0078 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:14.0114 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:14.0115 PM
+[ReportManager] Setting "skipTestsWithLinkedIssues" property with "true". @17-07-2024 21:39:14.0592 PM
+[ReportManager] Select "16" from "By.name: DateOfBirthDay". @17-07-2024 21:39:15.0770 PM
+[ReportManager] Setting "skipTestsWithLinkedIssues" property with "true". @17-07-2024 21:39:15.0970 PM
+[ReportManager] Select "7" from "By.name: DateOfBirthMonth". @17-07-2024 21:39:17.0250 PM
+[ReportManager] Setting "skipTestsWithLinkedIssues" property with "true". @17-07-2024 21:39:17.0398 PM
+[ReportManager] Select "2002" from "By.name: DateOfBirthYear". @17-07-2024 21:39:23.0607 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:39:23.0915 PM
+[ReportManager] Click "REGISTER". @17-07-2024 21:39:24.0015 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:24.0016 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:24.0017 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:24.0044 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:24.0045 PM
+[ReportManager] Get cssproperty "rgba(76, 177, 124, 1)" from "By.className: result". @17-07-2024 21:39:24.0855 PM
+[ReportManager] Expected "rgba(76, 177, 124, 1)", and actual "rgba(76, 177, 124, 1)" @17-07-2024 21:39:24.0856 PM
+[ReportManager] Verification "ValidateElementCSSProperty" PASSED. Expected "Value Should be 'rgba(76, 177, 124, 1)' for the 'color' CSS property, element locator 'By.className: result'" and Actual "rgba(76, 177, 124, 1)". Comparison Type "EQUALS". Validation Type "POSITIVE". @17-07-2024 21:39:26.0779 PM
+[ReportManager] Verification Passed: The Element located by "By.className: result" CSS property "color" is equal to "rgba(76, 177, 124, 1)". @17-07-2024 21:39:26.0780 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1721245165658_ValidateRegistration_ValidateElementCSSProperty_passed' @17-07-2024 21:39:26.0822 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup' @17-07-2024 21:39:26.0839 PM

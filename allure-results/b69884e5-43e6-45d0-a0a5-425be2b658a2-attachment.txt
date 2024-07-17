@@ -1,0 +1,34 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 14' test cases in the current suite                                        
+                                          Test Method: 'nopcommerce.tests.LoginTests.ValidateNotLogin'                                          
+                                Test Description: 'Validate user could not login with invalid email and password'                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @17-07-2024 21:39:36.0744 PM
+[ReportManager] Initial URL: "about:blank" @17-07-2024 21:39:36.0763 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @17-07-2024 21:39:38.0668 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:39:38.0884 PM
+[ReportManager] Click "Log in". @17-07-2024 21:39:38.0948 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"". @17-07-2024 21:39:38.0949 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"". @17-07-2024 21:39:38.0949 PM
+[ReportManager] Type "wrong@gmail.com" into "Email:". @17-07-2024 21:39:39.0936 PM
+[ReportManager] Type "WrongPassword" into "Password:". @17-07-2024 21:39:40.0042 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:39:40.0205 PM
+[ReportManager] Click "LOG IN". @17-07-2024 21:39:40.0269 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"". @17-07-2024 21:39:40.0270 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"". @17-07-2024 21:39:40.0270 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"". @17-07-2024 21:39:40.0288 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"". @17-07-2024 21:39:40.0289 PM
+[ReportManager] Get text "Login was unsuccessful. Please correct the errors and try again.
+No customer account found" from "By.xpath: //div[contains(text(),'Login was unsuccessful')]". @17-07-2024 21:39:40.0668 PM
+[ReportManager] Expected "Login was unsuccessful. Please correct the errors and try again.
+No customer account found", and actual "Login was unsuccessful. Please correct the errors and try again.
+No customer account found" @17-07-2024 21:39:40.0669 PM
+[ReportManager] Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'Login was unsuccessful. Please correct the errors and try again.
+No customer account found' for the 'text' attribute, element locator 'By.xpath: //div[contains(text(),'Login was unsuccessful')]'" and Actual "Login was unsuccessful. Please correct the errors and try again.
+No customer account found". Comparison Type "EQUALS". Validation Type "POSITIVE". @17-07-2024 21:39:41.0193 PM
+[ReportManager] Verification Passed: The Element located by "By.xpath: //div[contains(text(),'Login was unsuccessful')]" text is equal to "Login was unsuccessful. Please correct the errors and try again.
+No customer account found". @17-07-2024 21:39:41.0193 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1721245181024_ValidateNotLogin_ValidateElementAttribute_passed' @17-07-2024 21:39:41.0198 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup' @17-07-2024 21:39:41.0201 PM

@@ -1,0 +1,34 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 14' test cases in the current suite                                        
+                                   Test Method: 'nopcommerce.tests.SearchFeatureTests.searchNikeByProductName'                                   
+                          Test Description: 'Validate accuracy of Nike product search results by product name and SKU'                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @17-07-2024 21:39:59.0039 PM
+[ReportManager] Initial URL: "about:blank" @17-07-2024 21:39:59.0059 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @17-07-2024 21:40:00.0366 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:40:00.0367 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:40:00.0367 PM
+[ReportManager] Type "Nike Floral Roshe Customized Running Shoes" into "Search store". @17-07-2024 21:40:00.0496 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:40:00.0661 PM
+[ReportManager] Click "SEARCH". @17-07-2024 21:40:00.0712 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:40:00.0712 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:40:00.0712 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:40:00.0723 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:40:00.0723 PM
+[ReportManager] Get Text from element, text is "Nike Floral Roshe Customized Running Shoes
+When you ran across these shoes, you will immediately fell in love and needed a pair of these customized beauties.
+$40.00
+Add to cart Add to compare list Add to wishlist". @17-07-2024 21:40:01.0107 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:40:01.0107 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:40:01.0107 PM
+[ReportManager] Type "NK_FRC_RS" into "Search store". @17-07-2024 21:40:01.0794 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:40:01.0945 PM
+[ReportManager] Click "SEARCH". @17-07-2024 21:40:01.0965 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:40:01.0966 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:40:01.0966 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:40:02.0505 PM
+[ReportManager] Click "By.xpath: //div[@class="item-box"]//div[@class="picture"]". @17-07-2024 21:40:02.0530 PM
+[ReportManager] Get text "NK_FRC_RS" from "By.xpath: //div[@class="sku"]//span[@class="value"]". @17-07-2024 21:40:03.0478 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup' @17-07-2024 21:40:03.0483 PM

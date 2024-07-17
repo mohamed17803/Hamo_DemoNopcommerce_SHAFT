@@ -1,0 +1,21 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '12 out of 14' test cases in the current suite                                       
+                                        Test Method: 'nopcommerce.tests.FollowUsTests.YoutubeValidation'                                        
+                      Test Description: 'Validate that the user is navigated to the Youtube page of the website correctly'                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @17-07-2024 21:40:29.0326 PM
+[ReportManager] Initial URL: "about:blank" @17-07-2024 21:40:29.0345 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @17-07-2024 21:40:30.0669 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"". @17-07-2024 21:40:30.0670 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"". @17-07-2024 21:40:30.0671 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:40:30.0896 PM
+[ReportManager] Click "By.className: youtube". @17-07-2024 21:40:30.0997 PM
+[ReportManager] Get current url "https://www.youtube.com/user/nopCommerce". @17-07-2024 21:40:34.0461 PM
+[ReportManager] Expected "https://www.youtube.com/user/nopCommerce", and actual "https://www.youtube.com/user/nopCommerce" @17-07-2024 21:40:34.0461 PM
+[ReportManager] Verification "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'https://www.youtube.com/user/nopCommerce' for the 'currenturl' attribute" and Actual "https://www.youtube.com/user/nopCommerce". Comparison Type "EQUALS". Validation Type "POSITIVE". @17-07-2024 21:40:34.0810 PM
+[ReportManager] Verification Passed: The Browser URL is equal to "https://www.youtube.com/user/nopCommerce". @17-07-2024 21:40:34.0810 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1721245234641_YoutubeValidation_ValidateBrowserAttribute_passed' @17-07-2024 21:40:34.0814 PM
+[ReportManager] Successfully Closed Driver. @17-07-2024 21:40:34.0890 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup' @17-07-2024 21:40:34.0917 PM

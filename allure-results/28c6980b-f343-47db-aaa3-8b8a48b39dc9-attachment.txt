@@ -1,0 +1,21 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '10 out of 14' test cases in the current suite                                       
+                                        Test Method: 'nopcommerce.tests.FollowUsTests.TwitterValidation'                                        
+                      Test Description: 'Validate that the user is navigated to the Twitter page of the website correctly'                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @17-07-2024 21:40:16.0377 PM
+[ReportManager] Initial URL: "about:blank" @17-07-2024 21:40:16.0397 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @17-07-2024 21:40:17.0951 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"". @17-07-2024 21:40:17.0952 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"". @17-07-2024 21:40:17.0952 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:40:18.0190 PM
+[ReportManager] Click "By.className: twitter". @17-07-2024 21:40:18.0284 PM
+[ReportManager] Get current url "https://x.com/nopCommerce". @17-07-2024 21:40:21.0796 PM
+[ReportManager] Expected "https://x.com/nopCommerce", and actual "https://x.com/nopCommerce" @17-07-2024 21:40:21.0797 PM
+[ReportManager] Verification "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'https://x.com/nopCommerce' for the 'currenturl' attribute" and Actual "https://x.com/nopCommerce". Comparison Type "EQUALS". Validation Type "POSITIVE". @17-07-2024 21:40:22.0053 PM
+[ReportManager] Verification Passed: The Browser URL is equal to "https://x.com/nopCommerce". @17-07-2024 21:40:22.0053 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1721245221976_TwitterValidation_ValidateBrowserAttribute_passed' @17-07-2024 21:40:22.0057 PM
+[ReportManager] Successfully Closed Driver. @17-07-2024 21:40:22.0122 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup' @17-07-2024 21:40:22.0151 PM

@@ -1,0 +1,21 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 14' test cases in the current suite                                        
+                                    Test Method: 'nopcommerce.tests.CurrenciesTest.Choosecurrencyvalidation'                                    
+             Test Description: 'Test if the driver selects the correct currency and validates the currency symbol in product prices'             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @17-07-2024 21:39:42.0704 PM
+[ReportManager] Initial URL: "about:blank" @17-07-2024 21:39:42.0725 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @17-07-2024 21:39:44.0068 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/CurrenciesTestData.json"". @17-07-2024 21:39:44.0069 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/CurrenciesTestData.json"". @17-07-2024 21:39:44.0070 PM
+[ReportManager] Setting "skipTestsWithLinkedIssues" property with "true". @17-07-2024 21:39:44.0166 PM
+[ReportManager] Select "Euro" from "Currency selector". @17-07-2024 21:39:44.0352 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/CurrenciesTestData.json"". @17-07-2024 21:39:44.0353 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/CurrenciesTestData.json"". @17-07-2024 21:39:44.0353 PM
+[ReportManager] Get text "€1032.00" from "By.xpath: //div[@data-productid="1"]//span[@class="price actual-price"]". @17-07-2024 21:39:45.0044 PM
+[ReportManager] Get text "€1548.00" from "By.xpath: //div[@data-productid="4"]//span[@class="price actual-price"]". @17-07-2024 21:39:45.0094 PM
+[ReportManager] Get text "€210.70" from "By.xpath: //div[@data-productid="18"]//span[@class="price actual-price"]". @17-07-2024 21:39:45.0142 PM
+[ReportManager] Get text "€21.50" from "By.xpath: //div[@data-productid="43"]//span[@class="price actual-price"]". @17-07-2024 21:39:45.0192 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup' @17-07-2024 21:39:45.0196 PM

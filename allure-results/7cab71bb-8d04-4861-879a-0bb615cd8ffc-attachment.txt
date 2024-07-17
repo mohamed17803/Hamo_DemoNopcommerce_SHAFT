@@ -1,0 +1,18 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '14 out of 14' test cases in the current suite                                       
+                                     Test Method: 'nopcommerce.tests.WishlistFeatureTests.validateWishList'                                     
+                                  Test Description: 'Validate that the product added to wishList successfully '                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @17-07-2024 21:40:40.0123 PM
+[ReportManager] Initial URL: "about:blank" @17-07-2024 21:40:40.0140 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @17-07-2024 21:40:41.0452 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:40:41.0683 PM
+[ReportManager] Click "Add to wishlist". @17-07-2024 21:40:41.0737 PM
+[ReportManager] Waiting for element to be present; elementLocator "By.id: bar-notification", isExpectedToBeVisible"false"... @17-07-2024 21:40:42.0298 PM
+[ReportManager] Wait to be ready "Waited for the element's state of visibility to be (false). Element locator (By.id: bar-notification)" against "By.id: bar-notification". @17-07-2024 21:40:46.0662 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:40:46.0842 PM
+[ReportManager] Click "By.className: wishlist-label". @17-07-2024 21:40:46.0883 PM
+[ReportManager] Get text "1" from "Qty.". @17-07-2024 21:40:48.0341 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup' @17-07-2024 21:40:48.0345 PM

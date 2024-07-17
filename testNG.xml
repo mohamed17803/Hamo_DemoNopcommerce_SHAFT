@@ -43,7 +43,7 @@
             <class name="nopcommerce.tests.WishlistFeatureTests">
                 <methods>
                     <include name="wishlistValidations" />
-                    <include name="validateWishList`" />
+                    <include name="validateWishList" />
                 </methods>
             </class>
         </classes>

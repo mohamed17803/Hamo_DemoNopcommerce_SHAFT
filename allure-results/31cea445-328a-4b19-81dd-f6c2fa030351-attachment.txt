@@ -1,0 +1,15 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '13 out of 14' test cases in the current suite                                       
+                                    Test Method: 'nopcommerce.tests.WishlistFeatureTests.wishlistValidations'                                    
+                                   Test Description: 'Validate Wishlist Success Message and Background Color'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @17-07-2024 21:40:36.0522 PM
+[ReportManager] Initial URL: "about:blank" @17-07-2024 21:40:36.0540 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @17-07-2024 21:40:37.0733 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/WishlistTestData.json"". @17-07-2024 21:40:37.0733 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/WishlistTestData.json"". @17-07-2024 21:40:37.0733 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:40:37.0942 PM
+[ReportManager] Click "Add to wishlist". @17-07-2024 21:40:37.0982 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup' @17-07-2024 21:40:37.0987 PM

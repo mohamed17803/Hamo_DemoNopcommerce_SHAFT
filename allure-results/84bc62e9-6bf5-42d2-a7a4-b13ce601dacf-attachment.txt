@@ -1,0 +1,947 @@
+[INFO ] 2024-07-17 21:39:03.396 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231026[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:05.309 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2024-07-17 21:39:05.309 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-07-17 21:39:05.403 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2024-07-17 21:39:05.678 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-07-17 21:39:05.691 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-07-17 21:39:05.870 [main] Utils - [TestNG] Running:
+  C:\Users\Express\IdeaProjects\Amit_Project\testNG.xml
+
+[INFO ] 2024-07-17 21:39:05.908 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:05.984 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-07-17 21:39:05.991 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-07-17 21:39:06.093 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                'nopcommerce.tests.RegisterPageTest.beforeClass'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:06.097 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:06.097 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:06.097 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:06.102 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-07-17 21:39:06.111 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                   'nopcommerce.tests.RegisterPageTest.setup'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:06.121 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:39:06.126 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:39:06.133 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:39:06.134 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:06.134 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:39:08.044 [main] ReportManager - Jul 17, 2024 9:39:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:39:08.044 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:39:08.045 [main] ReportManager - Jul 17, 2024 9:39:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:39:08.045 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:39:08.048 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:08.133 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 14' test cases in the current suite                                        
+                                     Test Method: 'nopcommerce.tests.RegisterPageTest.ValidateRegistration'                                     
+                                  Test Description: 'Validate that the User registration is successfully done '                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:08.171 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:39:08.191 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:39:10.155 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:39:10.407 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:10.471 [main] ReportManager - Click "Register".
+[INFO ] 2024-07-17 21:39:11.583 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:11.616 [main] ReportManager - Click "Male".
+[INFO ] 2024-07-17 21:39:11.618 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:11.618 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:12.589 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:12.590 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:12.626 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:12.627 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:12.655 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:12.657 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:12.683 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:12.683 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:12.709 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:12.710 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:12.952 [main] ReportManager - Type "Mohamed" into "First name:".
+[INFO ] 2024-07-17 21:39:13.202 [main] ReportManager - Type "Sayed" into "Last name:".
+[INFO ] 2024-07-17 21:39:13.358 [main] ReportManager - Type "valid9@gmail.com" into "Email:".
+[INFO ] 2024-07-17 21:39:13.636 [main] ReportManager - Type "mo company" into "Company name:".
+[INFO ] 2024-07-17 21:39:13.759 [main] ReportManager - Type "P@ssw0rd" into "Password:".
+[INFO ] 2024-07-17 21:39:14.017 [main] ReportManager - Type "P@ssw0rd" into "Confirm password:".
+[INFO ] 2024-07-17 21:39:14.020 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:14.021 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:14.078 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:14.078 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:14.114 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:14.115 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:14.592 [main] ReportManager - Setting "skipTestsWithLinkedIssues" property with "true".
+[INFO ] 2024-07-17 21:39:15.771 [main] ReportManager - Select "16" from "By.name: DateOfBirthDay".
+[INFO ] 2024-07-17 21:39:15.970 [main] ReportManager - Setting "skipTestsWithLinkedIssues" property with "true".
+[INFO ] 2024-07-17 21:39:17.250 [main] ReportManager - Select "7" from "By.name: DateOfBirthMonth".
+[INFO ] 2024-07-17 21:39:17.398 [main] ReportManager - Setting "skipTestsWithLinkedIssues" property with "true".
+[INFO ] 2024-07-17 21:39:23.608 [main] ReportManager - Select "2002" from "By.name: DateOfBirthYear".
+[INFO ] 2024-07-17 21:39:23.915 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:24.015 [main] ReportManager - Click "REGISTER".
+[INFO ] 2024-07-17 21:39:24.016 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:24.017 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:24.044 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:24.045 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:24.855 [main] ReportManager - Get cssproperty "rgba(76, 177, 124, 1)" from "By.className: result".
+[INFO ] 2024-07-17 21:39:24.856 [main] ReportManager - Expected "rgba(76, 177, 124, 1)", and actual "rgba(76, 177, 124, 1)"
+[INFO ] 2024-07-17 21:39:26.779 [main] ReportManager - Verification "ValidateElementCSSProperty" PASSED. Expected "Value Should be 'rgba(76, 177, 124, 1)' for the 'color' CSS property, element locator 'By.className: result'" and Actual "rgba(76, 177, 124, 1)". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-07-17 21:39:26.822 [main] ReportManager - Successfully created attachment 'Screenshot - 1721245165658_ValidateRegistration_ValidateElementCSSProperty_passed'
+[INFO ] 2024-07-17 21:39:26.839 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:39:26.848 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: ValidateRegistration'
+[INFO ] 2024-07-17 21:39:26.848 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                          Finished Execution of Test Method: 'nopcommerce.tests.RegisterPageTest.ValidateRegistration'                          
+                                  Test Description: 'Validate that the User registration is successfully done '                                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:26.893 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                  'nopcommerce.tests.RegisterPageTest.tearDown'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:27.316 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:39:27.334 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:39:27.361 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:39:27.374 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:39:27.378 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                   'nopcommerce.tests.LoginTests.BeforeClass'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:27.380 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-17 21:39:27.380 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-17 21:39:27.380 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-17 21:39:27.392 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-07-17 21:39:27.394 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:27.394 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:27.395 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:27.404 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-07-17 21:39:27.406 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                      'nopcommerce.tests.LoginTests.setup'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:27.408 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:39:27.411 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:39:27.414 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:39:27.415 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:27.415 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:39:28.699 [main] ReportManager - Jul 17, 2024 9:39:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:39:28.699 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:39:28.700 [main] ReportManager - Jul 17, 2024 9:39:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:39:28.700 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:39:28.701 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:28.737 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 14' test cases in the current suite                                        
+                                            Test Method: 'nopcommerce.tests.LoginTests.ValidateLogin'                                            
+                               Test Description: 'Validating that user could login with valid email and password'                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:28.795 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:39:28.858 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:39:30.696 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:39:30.950 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:30.990 [main] ReportManager - Click "Log in".
+[INFO ] 2024-07-17 21:39:30.990 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:30.990 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:31.016 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:31.019 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"".
+[INFO ] 2024-07-17 21:39:32.018 [main] ReportManager - Type "valid9@gmail.com" into "Email:".
+[INFO ] 2024-07-17 21:39:32.111 [main] ReportManager - Type "P@ssw0rd" into "Password:".
+[INFO ] 2024-07-17 21:39:32.267 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:32.300 [main] ReportManager - Click "LOG IN".
+[INFO ] 2024-07-17 21:39:32.301 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-17 21:39:32.301 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-17 21:39:32.987 [main] ReportManager - Attempting to getAttribute "hidden" from elementLocator "By.className: ico-account".
+[INFO ] 2024-07-17 21:39:33.031 [main] ReportManager - Get attribute from "My account".
+[INFO ] 2024-07-17 21:39:33.031 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2024-07-17 21:39:34.174 [main] ReportManager - Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.className: ico-account'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-07-17 21:39:34.221 [main] ReportManager - Successfully created attachment 'Screenshot - 1721245173713_ValidateLogin_ValidateElementAttribute_passed'
+[INFO ] 2024-07-17 21:39:34.267 [main] ReportManager - Get current url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:39:34.267 [main] ReportManager - Expected "https://demo.nopcommerce.com/", and actual "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:39:35.201 [main] ReportManager - Verification "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'https://demo.nopcommerce.com/' for the 'currenturl' attribute" and Actual "https://demo.nopcommerce.com/". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-07-17 21:39:35.210 [main] ReportManager - Successfully created attachment 'Screenshot - 1721245174776_ValidateLogin_ValidateBrowserAttribute_passed'
+[INFO ] 2024-07-17 21:39:35.214 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:39:35.224 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: ValidateLogin'
+[INFO ] 2024-07-17 21:39:35.224 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                 Finished Execution of Test Method: 'nopcommerce.tests.LoginTests.ValidateLogin'                                 
+                               Test Description: 'Validating that user could login with valid email and password'                               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:35.228 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                     'nopcommerce.tests.LoginTests.tearDown'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:35.514 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:39:35.520 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:39:35.527 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:39:35.535 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:39:35.536 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                      'nopcommerce.tests.LoginTests.setup'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:35.538 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:39:35.539 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:39:35.540 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:39:35.541 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:35.541 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:39:36.719 [main] ReportManager - Jul 17, 2024 9:39:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:39:36.719 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:39:36.719 [main] ReportManager - Jul 17, 2024 9:39:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:39:36.719 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:39:36.720 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:36.730 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 14' test cases in the current suite                                        
+                                          Test Method: 'nopcommerce.tests.LoginTests.ValidateNotLogin'                                          
+                                Test Description: 'Validate user could not login with invalid email and password'                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:36.745 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:39:36.763 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:39:38.669 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:39:38.884 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:38.948 [main] ReportManager - Click "Log in".
+[INFO ] 2024-07-17 21:39:38.949 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-17 21:39:38.949 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-17 21:39:39.936 [main] ReportManager - Type "wrong@gmail.com" into "Email:".
+[INFO ] 2024-07-17 21:39:40.042 [main] ReportManager - Type "WrongPassword" into "Password:".
+[INFO ] 2024-07-17 21:39:40.206 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:40.269 [main] ReportManager - Click "LOG IN".
+[INFO ] 2024-07-17 21:39:40.270 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-17 21:39:40.271 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-17 21:39:40.288 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-17 21:39:40.289 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"".
+[INFO ] 2024-07-17 21:39:40.668 [main] ReportManager - Get text "Login was unsuccessful. Please correct the errors and try again.
+No customer account found" from "By.xpath: //div[contains(text(),'Login was unsuccessful')]".
+[INFO ] 2024-07-17 21:39:40.669 [main] ReportManager - Expected "Login was unsuccessful. Please correct the errors and try again.
+No customer account found", and actual "Login was unsuccessful. Please correct the errors and try again.
+No customer account found"
+[INFO ] 2024-07-17 21:39:41.193 [main] ReportManager - Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'Login was unsuccessful. Please correct the errors and try again.
+No customer account found' for the 'text' attribute, element locator 'By.xpath: //div[contains(text(),'Login was unsuccessful')]'" and Actual "Login was unsuccessful. Please correct the errors and try again.
+No customer account found". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-07-17 21:39:41.198 [main] ReportManager - Successfully created attachment 'Screenshot - 1721245181024_ValidateNotLogin_ValidateElementAttribute_passed'
+[INFO ] 2024-07-17 21:39:41.201 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:39:41.205 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: ValidateNotLogin'
+[INFO ] 2024-07-17 21:39:41.205 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'nopcommerce.tests.LoginTests.ValidateNotLogin'                               
+                                Test Description: 'Validate user could not login with invalid email and password'                                
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:41.210 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                     'nopcommerce.tests.LoginTests.tearDown'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:41.422 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:39:41.426 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:39:41.432 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:39:41.435 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:39:41.436 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                 'nopcommerce.tests.CurrenciesTest.BeforeClass'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:41.436 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/CurrenciesTestData.json"".
+[INFO ] 2024-07-17 21:39:41.436 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/CurrenciesTestData.json"".
+[INFO ] 2024-07-17 21:39:41.436 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/CurrenciesTestData.json"".
+[INFO ] 2024-07-17 21:39:41.440 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-07-17 21:39:41.441 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                    'nopcommerce.tests.CurrenciesTest.setup'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:41.442 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:39:41.443 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:39:41.444 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:39:41.444 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:41.444 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:39:42.673 [main] ReportManager - Jul 17, 2024 9:39:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:39:42.674 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:39:42.674 [main] ReportManager - Jul 17, 2024 9:39:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:39:42.674 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:39:42.674 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:42.684 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 14' test cases in the current suite                                        
+                                    Test Method: 'nopcommerce.tests.CurrenciesTest.Choosecurrencyvalidation'                                    
+             Test Description: 'Test if the driver selects the correct currency and validates the currency symbol in product prices'             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:42.704 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:39:42.725 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:39:44.068 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:39:44.069 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/CurrenciesTestData.json"".
+[INFO ] 2024-07-17 21:39:44.070 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/CurrenciesTestData.json"".
+[ERROR] 2024-07-17 21:39:44.089 [main] NamingUtils - Could not find parameter currency
+[INFO ] 2024-07-17 21:39:44.166 [main] ReportManager - Setting "skipTestsWithLinkedIssues" property with "true".
+[INFO ] 2024-07-17 21:39:44.352 [main] ReportManager - Select "Euro" from "Currency selector".
+[INFO ] 2024-07-17 21:39:44.353 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/CurrenciesTestData.json"".
+[INFO ] 2024-07-17 21:39:44.353 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/CurrenciesTestData.json"".
+[INFO ] 2024-07-17 21:39:45.044 [main] ReportManager - Get text "€1032.00" from "By.xpath: //div[@data-productid="1"]//span[@class="price actual-price"]".
+[INFO ] 2024-07-17 21:39:45.094 [main] ReportManager - Get text "€1548.00" from "By.xpath: //div[@data-productid="4"]//span[@class="price actual-price"]".
+[INFO ] 2024-07-17 21:39:45.142 [main] ReportManager - Get text "€210.70" from "By.xpath: //div[@data-productid="18"]//span[@class="price actual-price"]".
+[INFO ] 2024-07-17 21:39:45.192 [main] ReportManager - Get text "€21.50" from "By.xpath: //div[@data-productid="43"]//span[@class="price actual-price"]".
+[INFO ] 2024-07-17 21:39:45.196 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:39:45.201 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Choosecurrencyvalidation'
+[INFO ] 2024-07-17 21:39:45.202 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                         Finished Execution of Test Method: 'nopcommerce.tests.CurrenciesTest.Choosecurrencyvalidation'                         
+             Test Description: 'Test if the driver selects the correct currency and validates the currency symbol in product prices'             
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:45.206 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                   'nopcommerce.tests.CurrenciesTest.tearDown'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:45.494 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:39:45.503 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:39:45.510 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:39:45.516 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:39:45.517 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                               'nopcommerce.tests.SearchFeatureTests.beforeClass'                                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:45.518 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:45.518 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:45.518 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:45.525 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-07-17 21:39:45.526 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                  'nopcommerce.tests.SearchFeatureTests.setup'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:45.528 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:39:45.529 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:39:45.530 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:39:45.530 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:45.530 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:39:46.754 [main] ReportManager - Jul 17, 2024 9:39:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:39:46.754 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:39:46.754 [main] ReportManager - Jul 17, 2024 9:39:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:39:46.755 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:39:46.755 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:46.761 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 14' test cases in the current suite                                        
+                                  Test Method: 'nopcommerce.tests.SearchFeatureTests.searchByLaptopNameandsku'                                  
+                   Test Description: 'Validate when the user searches by Product Name or sku the correct result will be shown'                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:46.781 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:39:46.799 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:39:48.156 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:39:48.156 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:48.156 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:48.284 [main] ReportManager - Type "Apple MacBook" into "Search store".
+[INFO ] 2024-07-17 21:39:48.444 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:48.496 [main] ReportManager - Click "SEARCH".
+[INFO ] 2024-07-17 21:39:48.496 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:48.496 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:48.506 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:48.506 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:49.015 [main] ReportManager - the number of itemsResult is : 1
+[INFO ] 2024-07-17 21:39:49.036 [main] ReportManager - Get Text from element, text is "Apple MacBook Pro 13-inch
+$1,800.00
+ADD TO CART Add to compare list Add to wishlist".
+[INFO ] 2024-07-17 21:39:49.037 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:49.037 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:49.748 [main] ReportManager - Type "AP_MBP_13" into "Search store".
+[INFO ] 2024-07-17 21:39:49.924 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:49.966 [main] ReportManager - Click "SEARCH".
+[INFO ] 2024-07-17 21:39:49.966 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:49.967 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:50.531 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:50.568 [main] ReportManager - Click "By.xpath: //div[@class="item-box"]//div[@class="picture"]".
+[INFO ] 2024-07-17 21:39:51.638 [main] ReportManager - Get text "AP_MBP_13" from "By.xpath: //div[@class="sku"]//span[@class="value"]".
+[INFO ] 2024-07-17 21:39:51.643 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:39:51.646 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: searchByLaptopNameandsku'
+[INFO ] 2024-07-17 21:39:51.646 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                       Finished Execution of Test Method: 'nopcommerce.tests.SearchFeatureTests.searchByLaptopNameandsku'                       
+                   Test Description: 'Validate when the user searches by Product Name or sku the correct result will be shown'                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:51.651 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                 'nopcommerce.tests.SearchFeatureTests.tearDown'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:51.915 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:39:51.919 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:39:51.923 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:39:51.927 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:39:51.927 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                  'nopcommerce.tests.SearchFeatureTests.setup'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:51.929 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:39:51.930 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:39:51.930 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:39:51.930 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:51.930 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:39:53.172 [main] ReportManager - Jul 17, 2024 9:39:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:39:53.172 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:39:53.172 [main] ReportManager - Jul 17, 2024 9:39:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:39:53.172 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:39:53.172 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:53.181 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 14' test cases in the current suite                                        
+                                   Test Method: 'nopcommerce.tests.SearchFeatureTests.searchBookByProductName'                                   
+                                 Test Description: 'Validate when the user searches for a book by product name'                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:53.199 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:39:53.218 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:39:54.539 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:39:54.539 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:54.540 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:54.665 [main] ReportManager - Type "Science & Faith" into "Search store".
+[INFO ] 2024-07-17 21:39:54.832 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:54.859 [main] ReportManager - Click "SEARCH".
+[INFO ] 2024-07-17 21:39:54.860 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:54.860 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:54.874 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:54.874 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:55.183 [main] ReportManager - the number of itemsResult is : 1
+[INFO ] 2024-07-17 21:39:55.233 [main] ReportManager - Get Text from element, text is "Science & Faith
+Science & Faith is the second studio album by Irish pop rock band The Script.
+Add to cart Add to compare list Add to wishlist".
+[INFO ] 2024-07-17 21:39:55.234 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:55.234 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:55.919 [main] ReportManager - Type "SCI_FAITH" into "Search store".
+[INFO ] 2024-07-17 21:39:56.079 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:56.104 [main] ReportManager - Click "SEARCH".
+[INFO ] 2024-07-17 21:39:56.105 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:56.105 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:39:56.655 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:39:56.684 [main] ReportManager - Click "By.xpath: //div[@class="item-box"]//div[@class="picture"]".
+[INFO ] 2024-07-17 21:39:57.590 [main] ReportManager - Get text "SCI_FAITH" from "By.xpath: //div[@class="sku"]//span[@class="value"]".
+[INFO ] 2024-07-17 21:39:57.595 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:39:57.598 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: searchBookByProductName'
+[INFO ] 2024-07-17 21:39:57.598 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                        Finished Execution of Test Method: 'nopcommerce.tests.SearchFeatureTests.searchBookByProductName'                        
+                                 Test Description: 'Validate when the user searches for a book by product name'                                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:57.602 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                 'nopcommerce.tests.SearchFeatureTests.tearDown'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:57.817 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:39:57.823 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:39:57.827 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:39:57.831 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:39:57.831 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                  'nopcommerce.tests.SearchFeatureTests.setup'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:57.833 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:39:57.834 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:39:57.834 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:39:57.834 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:57.834 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:39:59.008 [main] ReportManager - Jul 17, 2024 9:39:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:39:59.008 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:39:59.008 [main] ReportManager - Jul 17, 2024 9:39:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:39:59.008 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:39:59.009 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:39:59.017 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 14' test cases in the current suite                                        
+                                   Test Method: 'nopcommerce.tests.SearchFeatureTests.searchNikeByProductName'                                   
+                          Test Description: 'Validate accuracy of Nike product search results by product name and SKU'                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:39:59.039 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:39:59.059 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:40:00.366 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:40:00.367 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:40:00.367 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:40:00.496 [main] ReportManager - Type "Nike Floral Roshe Customized Running Shoes" into "Search store".
+[INFO ] 2024-07-17 21:40:00.661 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:40:00.712 [main] ReportManager - Click "SEARCH".
+[INFO ] 2024-07-17 21:40:00.712 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:40:00.712 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:40:00.723 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:40:00.723 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:40:01.058 [main] ReportManager - the number of itemsResult is : 1
+[INFO ] 2024-07-17 21:40:01.107 [main] ReportManager - Get Text from element, text is "Nike Floral Roshe Customized Running Shoes
+When you ran across these shoes, you will immediately fell in love and needed a pair of these customized beauties.
+$40.00
+Add to cart Add to compare list Add to wishlist".
+[INFO ] 2024-07-17 21:40:01.107 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:40:01.107 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:40:01.794 [main] ReportManager - Type "NK_FRC_RS" into "Search store".
+[INFO ] 2024-07-17 21:40:01.945 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:40:01.965 [main] ReportManager - Click "SEARCH".
+[INFO ] 2024-07-17 21:40:01.966 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:40:01.966 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"".
+[INFO ] 2024-07-17 21:40:02.505 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:40:02.530 [main] ReportManager - Click "By.xpath: //div[@class="item-box"]//div[@class="picture"]".
+[INFO ] 2024-07-17 21:40:03.478 [main] ReportManager - Get text "NK_FRC_RS" from "By.xpath: //div[@class="sku"]//span[@class="value"]".
+[INFO ] 2024-07-17 21:40:03.483 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:40:03.486 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: searchNikeByProductName'
+[INFO ] 2024-07-17 21:40:03.486 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                        Finished Execution of Test Method: 'nopcommerce.tests.SearchFeatureTests.searchNikeByProductName'                        
+                          Test Description: 'Validate accuracy of Nike product search results by product name and SKU'                          
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:03.490 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                 'nopcommerce.tests.SearchFeatureTests.tearDown'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:03.711 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:40:03.718 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:40:03.724 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:40:03.728 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:40:03.729 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                  'nopcommerce.tests.HoverCategoriesTest.setup'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:03.730 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:40:03.731 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:40:03.731 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:40:03.732 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:03.732 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:40:04.991 [main] ReportManager - Jul 17, 2024 9:40:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:40:04.991 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:40:04.992 [main] ReportManager - Jul 17, 2024 9:40:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:40:04.992 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:40:04.992 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:05.001 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '8 out of 14' test cases in the current suite                                        
+                                   Test Method: 'nopcommerce.tests.HoverCategoriesTest.HoverFeatureValidation'                                   
+             Test Description: 'Validation of Hover and Click Functionality on Main and Sub Categories with Page Title Assertion  '             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:05.016 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:40:05.035 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:40:06.346 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:40:06.607 [main] ReportManager - Hover over "Electronics".
+[INFO ] 2024-07-17 21:40:06.793 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:40:06.834 [main] ReportManager - Click "Camera & photo".
+[INFO ] 2024-07-17 21:40:07.821 [main] ReportManager - Get text "Camera & photo" from "Camera & photo".
+[INFO ] 2024-07-17 21:40:07.821 [main] ReportManager - Page Title: Camera & photo
+[INFO ] 2024-07-17 21:40:07.868 [main] ReportManager - Get text "Camera & photo" from "Camera & photo".
+[INFO ] 2024-07-17 21:40:07.868 [main] ReportManager - Expected "Camera & photo", and actual "Camera & photo"
+[INFO ] 2024-07-17 21:40:08.464 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Camera & photo' for the 'text' attribute, element locator 'By.xpath: //div[@class="page-title"]/h1'" and Actual "Camera & photo". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-07-17 21:40:08.469 [main] ReportManager - Successfully created attachment 'Screenshot - 1721245208284_HoverFeatureValidation_ValidateElementAttribute_passed'
+[INFO ] 2024-07-17 21:40:08.473 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:40:08.476 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: HoverFeatureValidation'
+[INFO ] 2024-07-17 21:40:08.476 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                        Finished Execution of Test Method: 'nopcommerce.tests.HoverCategoriesTest.HoverFeatureValidation'                        
+             Test Description: 'Validation of Hover and Click Functionality on Main and Sub Categories with Page Title Assertion  '             
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:08.480 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                'nopcommerce.tests.HoverCategoriesTest.tearDown'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:08.718 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:40:08.723 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:40:08.732 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:40:08.739 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:40:08.740 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                  'nopcommerce.tests.FollowUsTests.BeforeClass'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:08.741 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"".
+[INFO ] 2024-07-17 21:40:08.741 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"".
+[INFO ] 2024-07-17 21:40:08.742 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"".
+[INFO ] 2024-07-17 21:40:08.749 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-07-17 21:40:08.750 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                     'nopcommerce.tests.FollowUsTests.setup'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:08.752 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:40:08.753 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:40:08.754 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:40:08.754 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:08.754 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:40:09.940 [main] ReportManager - Jul 17, 2024 9:40:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:40:09.940 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:40:09.940 [main] ReportManager - Jul 17, 2024 9:40:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:40:09.940 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:40:09.941 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:09.952 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '9 out of 14' test cases in the current suite                                        
+                                        Test Method: 'nopcommerce.tests.FollowUsTests.FacebookValidation'                                        
+                      Test Description: 'Validate that the user is navigated to the Facebook page of the website correctly'                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:09.976 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:40:09.999 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:40:11.926 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:40:11.927 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"".
+[INFO ] 2024-07-17 21:40:11.927 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"".
+[INFO ] 2024-07-17 21:40:12.136 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:40:12.214 [main] ReportManager - Click "By.className: facebook".
+[INFO ] 2024-07-17 21:40:14.348 [main] ReportManager - Get current url "https://www.facebook.com/nopCommerce".
+[INFO ] 2024-07-17 21:40:14.349 [main] ReportManager - Expected "https://www.facebook.com/nopCommerce", and actual "https://www.facebook.com/nopCommerce"
+[INFO ] 2024-07-17 21:40:14.716 [main] ReportManager - Verification "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'https://www.facebook.com/nopCommerce' for the 'currenturl' attribute" and Actual "https://www.facebook.com/nopCommerce". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-07-17 21:40:14.720 [main] ReportManager - Successfully created attachment 'Screenshot - 1721245214640_FacebookValidation_ValidateBrowserAttribute_passed'
+[INFO ] 2024-07-17 21:40:14.793 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:40:14.828 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:40:14.831 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: FacebookValidation'
+[INFO ] 2024-07-17 21:40:14.832 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                             Finished Execution of Test Method: 'nopcommerce.tests.FollowUsTests.FacebookValidation'                             
+                      Test Description: 'Validate that the user is navigated to the Facebook page of the website correctly'                      
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:14.835 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                   'nopcommerce.tests.FollowUsTests.tearDown'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:15.100 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:40:15.108 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:40:15.117 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:40:15.125 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:40:15.127 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                     'nopcommerce.tests.FollowUsTests.setup'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:15.129 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:40:15.131 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:40:15.133 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:40:15.133 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:15.133 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:40:16.349 [main] ReportManager - Jul 17, 2024 9:40:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:40:16.349 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:40:16.349 [main] ReportManager - Jul 17, 2024 9:40:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:40:16.349 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:40:16.349 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:16.358 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '10 out of 14' test cases in the current suite                                       
+                                        Test Method: 'nopcommerce.tests.FollowUsTests.TwitterValidation'                                        
+                      Test Description: 'Validate that the user is navigated to the Twitter page of the website correctly'                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:16.377 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:40:16.397 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:40:17.951 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:40:17.952 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"".
+[INFO ] 2024-07-17 21:40:17.952 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"".
+[INFO ] 2024-07-17 21:40:18.190 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:40:18.284 [main] ReportManager - Click "By.className: twitter".
+[INFO ] 2024-07-17 21:40:21.797 [main] ReportManager - Get current url "https://x.com/nopCommerce".
+[INFO ] 2024-07-17 21:40:21.797 [main] ReportManager - Expected "https://x.com/nopCommerce", and actual "https://x.com/nopCommerce"
+[INFO ] 2024-07-17 21:40:22.053 [main] ReportManager - Verification "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'https://x.com/nopCommerce' for the 'currenturl' attribute" and Actual "https://x.com/nopCommerce". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-07-17 21:40:22.057 [main] ReportManager - Successfully created attachment 'Screenshot - 1721245221976_TwitterValidation_ValidateBrowserAttribute_passed'
+[INFO ] 2024-07-17 21:40:22.122 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:40:22.151 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:40:22.155 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: TwitterValidation'
+[INFO ] 2024-07-17 21:40:22.155 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                             Finished Execution of Test Method: 'nopcommerce.tests.FollowUsTests.TwitterValidation'                             
+                      Test Description: 'Validate that the user is navigated to the Twitter page of the website correctly'                      
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:22.158 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                   'nopcommerce.tests.FollowUsTests.tearDown'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:22.413 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:40:22.417 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:40:22.421 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:40:22.424 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:40:22.425 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                     'nopcommerce.tests.FollowUsTests.setup'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:22.426 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:40:22.427 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:40:22.427 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:40:22.428 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:22.428 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:40:23.686 [main] ReportManager - Jul 17, 2024 9:40:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:40:23.686 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:40:23.686 [main] ReportManager - Jul 17, 2024 9:40:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:40:23.686 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:40:23.686 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:23.695 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '11 out of 14' test cases in the current suite                                       
+                                        Test Method: 'nopcommerce.tests.FollowUsTests.RsslinkValidation'                                        
+                      Test Description: 'Validate that the user is navigated to the RSSlink page of the website correctly'                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:23.715 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:40:23.739 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:40:25.211 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:40:25.212 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"".
+[INFO ] 2024-07-17 21:40:25.212 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"".
+[INFO ] 2024-07-17 21:40:25.439 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:40:25.502 [main] ReportManager - Click "By.className: rss".
+[INFO ] 2024-07-17 21:40:27.526 [main] ReportManager - Only one window handle available. Performing validation in the current window.
+[INFO ] 2024-07-17 21:40:27.548 [main] ReportManager - Get current url "https://demo.nopcommerce.com/news/rss/1".
+[INFO ] 2024-07-17 21:40:27.548 [main] ReportManager - Expected "https://demo.nopcommerce.com/news/rss/1", and actual "https://demo.nopcommerce.com/news/rss/1"
+[INFO ] 2024-07-17 21:40:27.714 [main] ReportManager - Verification "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'https://demo.nopcommerce.com/news/rss/1' for the 'currenturl' attribute" and Actual "https://demo.nopcommerce.com/news/rss/1". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-07-17 21:40:27.718 [main] ReportManager - Successfully created attachment 'Screenshot - 1721245227641_RsslinkValidation_ValidateBrowserAttribute_passed'
+[INFO ] 2024-07-17 21:40:27.722 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:40:27.725 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: RsslinkValidation'
+[INFO ] 2024-07-17 21:40:27.726 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                             Finished Execution of Test Method: 'nopcommerce.tests.FollowUsTests.RsslinkValidation'                             
+                      Test Description: 'Validate that the user is navigated to the RSSlink page of the website correctly'                      
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:27.730 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                   'nopcommerce.tests.FollowUsTests.tearDown'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:28.043 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:40:28.047 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:40:28.051 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:40:28.053 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:40:28.054 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                     'nopcommerce.tests.FollowUsTests.setup'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:28.055 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:40:28.056 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:40:28.056 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:40:28.056 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:28.056 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:40:29.302 [main] ReportManager - Jul 17, 2024 9:40:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:40:29.302 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:40:29.302 [main] ReportManager - Jul 17, 2024 9:40:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:40:29.302 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:40:29.302 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:29.311 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '12 out of 14' test cases in the current suite                                       
+                                        Test Method: 'nopcommerce.tests.FollowUsTests.YoutubeValidation'                                        
+                      Test Description: 'Validate that the user is navigated to the Youtube page of the website correctly'                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:29.326 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:40:29.345 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:40:30.670 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:40:30.670 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"".
+[INFO ] 2024-07-17 21:40:30.671 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/FollowUsTestData.json"".
+[INFO ] 2024-07-17 21:40:30.896 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:40:30.998 [main] ReportManager - Click "By.className: youtube".
+[INFO ] 2024-07-17 21:40:34.461 [main] ReportManager - Get current url "https://www.youtube.com/user/nopCommerce".
+[INFO ] 2024-07-17 21:40:34.461 [main] ReportManager - Expected "https://www.youtube.com/user/nopCommerce", and actual "https://www.youtube.com/user/nopCommerce"
+[INFO ] 2024-07-17 21:40:34.810 [main] ReportManager - Verification "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'https://www.youtube.com/user/nopCommerce' for the 'currenturl' attribute" and Actual "https://www.youtube.com/user/nopCommerce". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-07-17 21:40:34.814 [main] ReportManager - Successfully created attachment 'Screenshot - 1721245234641_YoutubeValidation_ValidateBrowserAttribute_passed'
+[INFO ] 2024-07-17 21:40:34.890 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:40:34.917 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:40:34.922 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: YoutubeValidation'
+[INFO ] 2024-07-17 21:40:34.922 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                             Finished Execution of Test Method: 'nopcommerce.tests.FollowUsTests.YoutubeValidation'                             
+                      Test Description: 'Validate that the user is navigated to the Youtube page of the website correctly'                      
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:34.926 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                   'nopcommerce.tests.FollowUsTests.tearDown'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:35.202 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:40:35.206 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:40:35.210 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:40:35.214 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:40:35.215 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                              'nopcommerce.tests.WishlistFeatureTests.BeforeClass'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:35.215 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/WishlistTestData.json"".
+[INFO ] 2024-07-17 21:40:35.215 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/WishlistTestData.json"".
+[INFO ] 2024-07-17 21:40:35.215 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/WishlistTestData.json"".
+[INFO ] 2024-07-17 21:40:35.222 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-07-17 21:40:35.223 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                 'nopcommerce.tests.WishlistFeatureTests.setup'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:35.224 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:40:35.224 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:40:35.225 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:40:35.225 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:35.225 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:40:36.480 [main] ReportManager - Jul 17, 2024 9:40:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:40:36.480 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:40:36.480 [main] ReportManager - Jul 17, 2024 9:40:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:40:36.480 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:40:36.481 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:36.489 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '13 out of 14' test cases in the current suite                                       
+                                    Test Method: 'nopcommerce.tests.WishlistFeatureTests.wishlistValidations'                                    
+                                   Test Description: 'Validate Wishlist Success Message and Background Color'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:36.522 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:40:36.540 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:40:37.733 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:40:37.733 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/WishlistTestData.json"".
+[INFO ] 2024-07-17 21:40:37.733 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/WishlistTestData.json"".
+[INFO ] 2024-07-17 21:40:37.942 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:40:37.982 [main] ReportManager - Click "Add to wishlist".
+[INFO ] 2024-07-17 21:40:37.987 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:40:37.991 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: wishlistValidations'
+[INFO ] 2024-07-17 21:40:37.991 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                         Finished Execution of Test Method: 'nopcommerce.tests.WishlistFeatureTests.wishlistValidations'                         
+                                   Test Description: 'Validate Wishlist Success Message and Background Color'                                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:37.994 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                'nopcommerce.tests.WishlistFeatureTests.tearDown'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:38.810 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:40:38.817 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:40:38.822 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:40:38.825 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:40:38.825 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                 'nopcommerce.tests.WishlistFeatureTests.setup'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:38.827 [main] ReportManager - Setting "targetOperatingSystem" property with "LINUX".
+[INFO ] 2024-07-17 21:40:38.828 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-17 21:40:38.828 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-17 21:40:38.829 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:38.829 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-07-17 21:40:40.087 [main] ReportManager - Jul 17, 2024 9:40:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-07-17 21:40:40.087 [main] ReportManager - WARNING: Unable to find CDP implementation matching 126
+[WARN ] 2024-07-17 21:40:40.087 [main] ReportManager - Jul 17, 2024 9:40:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-07-17 21:40:40.087 [main] ReportManager - WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-07-17 21:40:40.087 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-07-17 21:40:40.092 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '14 out of 14' test cases in the current suite                                       
+                                     Test Method: 'nopcommerce.tests.WishlistFeatureTests.validateWishList'                                     
+                                  Test Description: 'Validate that the product added to wishList successfully '                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:40.123 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-07-17 21:40:40.140 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-17 21:40:41.452 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-07-17 21:40:41.683 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:40:41.737 [main] ReportManager - Click "Add to wishlist".
+[INFO ] 2024-07-17 21:40:42.298 [main] ReportManager - Waiting for element to be present; elementLocator "By.id: bar-notification", isExpectedToBeVisible"false"...
+[INFO ] 2024-07-17 21:40:46.663 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (false). Element locator (By.id: bar-notification)" against "By.id: bar-notification".
+[INFO ] 2024-07-17 21:40:46.842 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-17 21:40:46.883 [main] ReportManager - Click "By.className: wishlist-label".
+[INFO ] 2024-07-17 21:40:48.341 [main] ReportManager - Get text "1" from "Qty.".
+[INFO ] 2024-07-17 21:40:48.345 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-07-17 21:40:48.353 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: validateWishList'
+[INFO ] 2024-07-17 21:40:48.353 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                          Finished Execution of Test Method: 'nopcommerce.tests.WishlistFeatureTests.validateWishList'                          
+                                  Test Description: 'Validate that the product added to wishList successfully '                                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:48.357 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                'nopcommerce.tests.WishlistFeatureTests.tearDown'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:48.631 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-17 21:40:48.640 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[ERROR] 2024-07-17 21:40:48.647 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-07-17 21:40:48.653 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-07-17 21:40:48.684 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-17 21:40:48.684 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-07-17 21:40:48.685 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2024-07-17 21:40:48.685 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

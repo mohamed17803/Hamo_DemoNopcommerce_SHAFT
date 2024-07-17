@@ -1,0 +1,33 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 14' test cases in the current suite                                        
+                                   Test Method: 'nopcommerce.tests.SearchFeatureTests.searchBookByProductName'                                   
+                                 Test Description: 'Validate when the user searches for a book by product name'                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @17-07-2024 21:39:53.0199 PM
+[ReportManager] Initial URL: "about:blank" @17-07-2024 21:39:53.0218 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @17-07-2024 21:39:54.0539 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:39:54.0539 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:39:54.0540 PM
+[ReportManager] Type "Science & Faith" into "Search store". @17-07-2024 21:39:54.0665 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:39:54.0832 PM
+[ReportManager] Click "SEARCH". @17-07-2024 21:39:54.0859 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:39:54.0860 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:39:54.0860 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:39:54.0873 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:39:54.0874 PM
+[ReportManager] Get Text from element, text is "Science & Faith
+Science & Faith is the second studio album by Irish pop rock band The Script.
+Add to cart Add to compare list Add to wishlist". @17-07-2024 21:39:55.0233 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:39:55.0234 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:39:55.0234 PM
+[ReportManager] Type "SCI_FAITH" into "Search store". @17-07-2024 21:39:55.0919 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:39:56.0079 PM
+[ReportManager] Click "SEARCH". @17-07-2024 21:39:56.0104 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:39:56.0105 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/SearchFeatureTestData.json"". @17-07-2024 21:39:56.0105 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:39:56.0655 PM
+[ReportManager] Click "By.xpath: //div[@class="item-box"]//div[@class="picture"]". @17-07-2024 21:39:56.0684 PM
+[ReportManager] Get text "SCI_FAITH" from "By.xpath: //div[@class="sku"]//span[@class="value"]". @17-07-2024 21:39:57.0590 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup' @17-07-2024 21:39:57.0595 PM

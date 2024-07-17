@@ -1,0 +1,20 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '8 out of 14' test cases in the current suite                                        
+                                   Test Method: 'nopcommerce.tests.HoverCategoriesTest.HoverFeatureValidation'                                   
+             Test Description: 'Validation of Hover and Click Functionality on Main and Sub Categories with Page Title Assertion  '             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @17-07-2024 21:40:05.0016 PM
+[ReportManager] Initial URL: "about:blank" @17-07-2024 21:40:05.0035 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @17-07-2024 21:40:06.0346 PM
+[ReportManager] Hover over "Electronics". @17-07-2024 21:40:06.0606 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:40:06.0793 PM
+[ReportManager] Click "Camera & photo". @17-07-2024 21:40:06.0834 PM
+[ReportManager] Get text "Camera & photo" from "Camera & photo". @17-07-2024 21:40:07.0821 PM
+[ReportManager] Get text "Camera & photo" from "Camera & photo". @17-07-2024 21:40:07.0868 PM
+[ReportManager] Expected "Camera & photo", and actual "Camera & photo" @17-07-2024 21:40:07.0868 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Camera & photo' for the 'text' attribute, element locator 'By.xpath: //div[@class="page-title"]/h1'" and Actual "Camera & photo". Comparison Type "EQUALS". Validation Type "POSITIVE". @17-07-2024 21:40:08.0464 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //div[@class="page-title"]/h1" text is equal to "Camera & photo". @17-07-2024 21:40:08.0464 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1721245208284_HoverFeatureValidation_ValidateElementAttribute_passed' @17-07-2024 21:40:08.0469 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup' @17-07-2024 21:40:08.0473 PM

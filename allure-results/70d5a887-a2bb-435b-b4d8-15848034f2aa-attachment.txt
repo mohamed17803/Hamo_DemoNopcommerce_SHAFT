@@ -1,0 +1,34 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 14' test cases in the current suite                                        
+                                            Test Method: 'nopcommerce.tests.LoginTests.ValidateLogin'                                            
+                               Test Description: 'Validating that user could login with valid email and password'                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @17-07-2024 21:39:28.0795 PM
+[ReportManager] Initial URL: "about:blank" @17-07-2024 21:39:28.0858 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @17-07-2024 21:39:30.0696 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:39:30.0950 PM
+[ReportManager] Click "Log in". @17-07-2024 21:39:30.0990 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:30.0990 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:30.0990 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:31.0016 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/RegisterPageTestData.json"". @17-07-2024 21:39:31.0019 PM
+[ReportManager] Type "valid9@gmail.com" into "Email:". @17-07-2024 21:39:32.0018 PM
+[ReportManager] Type "P@ssw0rd" into "Password:". @17-07-2024 21:39:32.0111 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-07-2024 21:39:32.0266 PM
+[ReportManager] Click "LOG IN". @17-07-2024 21:39:32.0300 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"". @17-07-2024 21:39:32.0301 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/nopcommerce.TestData/LoginPageTestData.json"". @17-07-2024 21:39:32.0301 PM
+[ReportManager] Attempting to getAttribute "hidden" from elementLocator "By.className: ico-account". @17-07-2024 21:39:32.0987 PM
+[ReportManager] Get attribute from "My account". @17-07-2024 21:39:33.0031 PM
+[ReportManager] Expected "null", and actual "null" @17-07-2024 21:39:33.0031 PM
+[ReportManager] Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.className: ico-account'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE". @17-07-2024 21:39:34.0174 PM
+[ReportManager] Verification Passed: The Element located by "By.className: ico-account" is visible, hidden attribute is equal to "null". @17-07-2024 21:39:34.0174 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1721245173713_ValidateLogin_ValidateElementAttribute_passed' @17-07-2024 21:39:34.0221 PM
+[ReportManager] Get current url "https://demo.nopcommerce.com/". @17-07-2024 21:39:34.0266 PM
+[ReportManager] Expected "https://demo.nopcommerce.com/", and actual "https://demo.nopcommerce.com/" @17-07-2024 21:39:34.0267 PM
+[ReportManager] Verification "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'https://demo.nopcommerce.com/' for the 'currenturl' attribute" and Actual "https://demo.nopcommerce.com/". Comparison Type "EQUALS". Validation Type "POSITIVE". @17-07-2024 21:39:35.0201 PM
+[ReportManager] Verification Passed: The Browser URL is equal to "https://demo.nopcommerce.com/". @17-07-2024 21:39:35.0201 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1721245174776_ValidateLogin_ValidateBrowserAttribute_passed' @17-07-2024 21:39:35.0210 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup' @17-07-2024 21:39:35.0214 PM
