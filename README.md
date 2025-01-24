@@ -1,11 +1,6 @@
 # Hi, my name is Mohamed Sayed
 # Feel free to reach out if there's something you'd like to learn from me!
 
-### Note:
-## Here’s the revised message with your LinkedIn post link included:
-
-
-
 **### Important Note**  
 **This project involves test automation for the Demo NopCommerce Website. However, due to the recent implementation of a robot detection mechanism, it is no longer possible to perform automation testing directly on the live website.**  
 
